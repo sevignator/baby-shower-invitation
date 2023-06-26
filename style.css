@@ -65,4 +65,15 @@ h1, p {
   border-radius: 8px;
   box-shadow: 0 4px 0 #e1b48d;
   width: min(16rem, calc(100% - 48px));
+  transition: translate 90ms ease-out, box-shadow 90ms ease-out;
+}
+
+.button:hover {
+  translate: 0 -4px;
+  box-shadow: 0 8px 0 #e1b48d;
+}
+
+.button:active {
+  translate: 0 4px;
+  box-shadow: 0 0 0 #e1b48d
 }
