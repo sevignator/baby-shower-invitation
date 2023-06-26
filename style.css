@@ -48,6 +48,11 @@ h1, p {
   margin: 0;
 }
 
+add-to-calendar-button {
+  margin-inline: auto;
+}
+
+
 .accent-text {
   font-family: var(--ff-cursive);
   color: #A04C00;
@@ -55,7 +60,7 @@ h1, p {
   line-height: 1.25;
 }
 
-.button {
+.atcb-button, .button {
   display: inline-block;
   margin-top: 1rem;
   padding: 0.5em 1em;
